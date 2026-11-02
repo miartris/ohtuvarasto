@@ -14,6 +14,8 @@ class TestVarasto(unittest.TestCase):
          varasto = Varasto(10, -1)
          self.assertAlmostEqual(varasto.saldo, 0)
 
+    #Muutos muuhun kuin readme
+
     def test_lisaa_negatiivinen(self):
          saldo = self.varasto.saldo
          self.varasto.lisaa_varastoon(-1)
